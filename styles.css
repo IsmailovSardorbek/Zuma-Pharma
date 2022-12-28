@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-login {
+  background-color: #248277;
+  font-size: 14px;
+  transition: 0.3s;
+  height: 40px;
+  width: 150px;
+  border-radius: 12px !important;
+}
+
+.btn-login:hover {
+  background: #145b53;
+}
+
+select,
+option {
+  cursor: pointer !important;
+}
+
+select {
+  width: 100px !important;
+}
+
+.card {
+  background: #40413f !important;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url(./images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  background-position: center center;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.details {
+  background: #248277;
+}
+
+.quantity {
+  background: #fff;
+  color: #248277;
+  font-size: 24px;
+  font-weight: 600;
+  width: 90px;
+  height: 90px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .info_container {
+    flex-direction: column;
+  }
+
+  .btn-login,
+  select {
+    width: 100% !important;
+    display: block !important;
+    margin: 1rem 0;
+  }
+}
