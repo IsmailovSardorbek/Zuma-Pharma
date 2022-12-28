@@ -74,6 +74,10 @@ select {
   font-weight: 500;
 }
 
+option {
+  color: #000 !important;
+}
+
 @media (max-width: 500px) {
   .info_container {
     flex-direction: column;
