@@ -1,4 +1,3 @@
-document.querySelector('.btn-login').addEventListener('click', () => {
-  window.location.href = 'about.html'
-})
-
+function sum(a, b) {
+  return a + b
+}
