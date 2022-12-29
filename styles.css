@@ -92,10 +92,17 @@ option {
 }
 
 .card:not(.product-card):hover > img {
-  fill: #248277;
+  background: #248277 !important;
+  fill: #248277 !important;
 }
 .card:not(.product-card):hover .card-title {
   color: #248277 !important;
+}
+
+.icon-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .nav-right button,
@@ -113,6 +120,16 @@ option {
   font-weight: 500 !important;
 }
 
+.other-news {
+  background: #40413f;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 270px;
+  margin: auto;
+}
+
 .product-card img {
   width: 170px;
   height: 170px;
@@ -125,8 +142,32 @@ option {
 }
 
 .arrow {
-  width: 28px !important;
-  height: 17px !important;
+  width: 25px !important;
+  height: 13px !important;
+}
+
+.companies {
+  background: #333;
+}
+
+.news {
+  cursor: pointer;
+}
+
+.location-1 {
+  background-color: #2a4365;
+  min-height: 200px;
+}
+
+.location-2 {
+  min-height: 200px;
+  background: #fff7ca;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  gap: 1rem;
 }
 
 @media (max-width: 500px) {
