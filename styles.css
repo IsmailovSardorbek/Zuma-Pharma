@@ -213,7 +213,13 @@ iframe {
   min-height: 400px;
 }
 
-@media (max-width: 500px) {
+.products {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (width <= 500px) {
   .info_container {
     flex-direction: column;
   }
@@ -236,7 +242,7 @@ iframe {
   }
 }
 
-@media (min-width: 960px) {
+@media (width >= 960px) {
   .product-card {
     max-width: 270px;
   }
