@@ -219,6 +219,15 @@ iframe {
   margin-right: auto !important;
 }
 
+.footer-link {
+  color: #a5a5a5 !important;
+  font-weight: 400 !important;
+}
+
+.list-unstyled i {
+  color: #a5a5a5 !important;
+}
+
 @media (width <= 500px) {
   .info_container {
     flex-direction: column;
