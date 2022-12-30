@@ -168,6 +168,14 @@ a {
   margin-bottom: 0.3rem !important;
 }
 
+.footer {
+  background: #2c2c2c;
+}
+
+.icons a {
+  font-size: 1.5rem !important;
+}
+
 .news {
   cursor: pointer;
 }
