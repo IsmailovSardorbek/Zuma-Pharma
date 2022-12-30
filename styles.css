@@ -150,6 +150,24 @@ option {
   background: #333;
 }
 
+#companies {
+  background: rgba(51, 51, 51, 0.1);
+}
+
+#companies p,
+a {
+  color: #333 !important;
+  font-weight: 600 !important;
+}
+
+.desc {
+  margin-top: 2.6rem !important;
+}
+
+#companies p {
+  margin-bottom: 0.3rem !important;
+}
+
 .news {
   cursor: pointer;
 }
@@ -173,32 +191,18 @@ option {
 .contact-btn {
   background: #248277;
   transition: 300ms;
-  max-width: 400px !important;
-  font-size: 15px !important;
+  max-width: 380px !important;
+  font-size: 14px !important;
   max-height: 60px !important;
-}
-
-.first {
-  padding: 1rem 90px !important;
-  display: flex !important;
-  align-items: center !important;
-  flex-direction: row !important;
-}
-
-.second {
-  padding: 1rem 80px !important;
-  display: flex !important;
-  align-items: center !important;
-  flex-direction: row !important;
-}
-
-.third {
-  max-width: 350px !important;
-  font-size: 13px !important;
 }
 
 .contact-btn:hover {
   background: linear-gradient(94.13deg, #32a799 26.25%, #248277 72.02%);
+}
+
+iframe {
+  width: 100%;
+  min-height: 400px;
 }
 
 @media (max-width: 500px) {
