@@ -1,3 +1,3 @@
-function sum(a, b) {
-  return a + b
+function changeLocation() {
+  window.location.href = 'news.html'
 }
